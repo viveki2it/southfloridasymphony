@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One Magical Weekend</title> 
+  <link rel="icon" type="image/png" href= "<%= asset_path('new_ui/logo_email.jpg') %>" />
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application.js", :media => 'screen, projection' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= yield %>
+  <%= render 'toastr_rails/flash' %>
+</body>
+</html>

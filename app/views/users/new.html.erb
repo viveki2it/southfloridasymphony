@@ -1,0 +1,19 @@
+<!-- Header Start -->
+<div class="container-fluid homeheaderbg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="margin-top:180px;">
+        <p style="font-size:40px; color:#FF0070; font-weight:bold;  text-shadow: 2px 2px 2px #000;">One Magical Weekend</p>
+        <p style="font-size:27px; font-weight:bold;  text-shadow: 2px 2px 2px #000;"> The most magical weekend of the year</p>
+      </div>
+    </div>	
+  </div>	
+</div>
+<!-- Header End -->
+
+<% if Rails.application.config.ended %>
+  <%= render "users/campaign_ended" %>
+<% else %>
+  <%= render "users/campaign_ongoing" %>
+<% end %>
+
