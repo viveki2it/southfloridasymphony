@@ -19,28 +19,28 @@ class User < ActiveRecord::Base
       'html1' => 'Omw Tank top',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/pov-pole-1.png')
+        'assets/refer/omw10.jpg')
     },
     {
       'count' => 25,
       'html1' => 'Friday Therapy <br> Pool Party Ticket',
       'class' => 'three',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/360fly-divehousing-front.png')
+        'assets/refer/omw25.jpg')
     },
     {
       'count' => 50,
       'html1' => 'Friday Cadabra <br> After Hours Ticket',
       'class' => 'four',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/vr-headset-closeup.png')
+        'assets/refer/omw50.jpg')
     },
     {
       'count' => 75,
       'html1' => 'Riptide at Typhoon <br> Lagoon Ticket',
       'class' => 'five',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/hd3_1.png')
+        'assets/refer/omw75.jpg')
     }
   ]
 
