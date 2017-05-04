@@ -2,13 +2,15 @@
 <div class="container-fluid">
   <div class="row">                                                    
     <div class="form">
-        <p><img src="<%= asset_path('new_ui/logo_email.jpg') %>" alt="Icon" width="40" /></p>           
+      <p><img src="<%= asset_path('new_ui/logo_email.jpg') %>" alt="Icon" width="40" /></p>           
       <p style="font-size:18px; color:#FF0070;">BE THE FIRST TO KNOW</p>
 
       <%= form_for @user, :url => { :action => "create" }, :html => {:class => "form-inline"} do |f| %> 
         <%= f.text_field :email, :placeholder => "Enter Email", :class => "emailbox" %> 
         <input class="btn purple" type="submit" value="STEP INSIDE" />
       <% end %>
+      <p>&nbsp;</p>
+      <p style="font-size:18px; font-weight:bold; text-align:center;  text-shadow: 2px 2px 2px #000;">Only at Walt Disney World<sup>&reg;</sup> Resorts</p>
     </div>
   </div>
 </div>

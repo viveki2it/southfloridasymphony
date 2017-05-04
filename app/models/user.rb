@@ -37,7 +37,7 @@ class User < ActiveRecord::Base
     },
     {
       'count' => 75,
-      'html1' => 'Riptide at Typhoon <br> Lagoon Ticket',
+      'html1' => "Riptide at <i>Disney's Typhoon Lagoon</i> Waterpark",
       'class' => 'five',
       'image' =>  ActionController::Base.helpers.asset_path(
         'assets/refer/omw75.jpg')

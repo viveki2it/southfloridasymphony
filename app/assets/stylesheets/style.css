@@ -7,7 +7,7 @@ body{margin:0px; padding:0px; background:#000; color:#fff;}
 -webkit-background-size: cover;        
 -moz-background-size: cover;                          
 -o-background-size: cover;                                                               
-background-size: cover; height:490px;}   
+background-size: cover; height:460px;}   
 
 .thankyouheaderbg{background: url(new_ui/headerbgthankyou.jpg) top center no-repeat; background-attachment:scroll;
 -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height:430px;}                                         
