@@ -28,6 +28,9 @@ background-size: cover; height:460px;}
 .bs-wizard {margin-top: 0px; margin-bottom:20px;border-bottom:0px;}
 
 img{ border:0px;}
+.container-fluid:after {
+    clear: both;
+}
        
        
 /*Form Wizard*/
