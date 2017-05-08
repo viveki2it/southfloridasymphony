@@ -12,8 +12,8 @@ background-size: cover; height:460px;}
 .thankyouheaderbg{background: url(new_ui/headerbgthankyou.jpg) top center no-repeat; background-attachment:scroll;
 -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height:430px;}                                         
 
-.rightbox{float:right; padding-top:20px; background:#fff; border:1px solid #FF0070; margin-top:30px; opacity:.7; box-shadow:3px 3px 3px #ccc; color:#333333;} 
-.leftbox{float:left; padding-top:20px; } 
+.rightbox{padding-top:20px; background:#fff; border:1px solid #FF0070; margin-top:30px; opacity:.7; box-shadow:3px 3px 3px #ccc; color:#333333;} 
+.leftbox{padding-top:20px; } 
 
 .form{ margin: 0 auto; text-align:center; margin-bottom:20px; padding-top:15px;}      
            
@@ -28,10 +28,7 @@ background-size: cover; height:460px;}
 .bs-wizard {margin-top: 0px; margin-bottom:20px;border-bottom:0px;}
 
 img{ border:0px;}
-.container-fluid {
-    clear: both;
-}
-       
+      
        
 /*Form Wizard*/
 .bs-wizard {}
@@ -52,3 +49,18 @@ img{ border:0px;}
 .bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
 .bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
 .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+
+@media (min-width: 768px) {
+  .rightbox{float:right;}
+  .leftbox{float:left;} 
+}
+
+@media (min-width: 992px) {
+  .rightbox{float:right;}
+  .leftbox{float:left;} 
+}
+
+@media (min-width: 1200px) {
+  .rightbox{float:right;}
+  .leftbox{float:left;} 
+}
