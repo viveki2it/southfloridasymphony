@@ -18,8 +18,8 @@ px      68    160    252    344    436    528    620    712    804    896    */
 .bs-wizard {}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
-.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff;; font-size: 15px; margin-bottom: 5px;}
-.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff;; font-size: 13px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 15px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF9900; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF6C00; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
@@ -60,8 +60,8 @@ px      68    160    252    344    436    528    620    712    */
 .bs-wizard {}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
-.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff;; font-size: 13px; margin-bottom: 5px;}
-.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff;; font-size: 13px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 13px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF9900; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF6C00; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
@@ -104,8 +104,8 @@ px      68    160    252    */
 .bs-wizard {}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
-.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff;; font-size:8px; margin-bottom: 5px;}
-.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff;; font-size: 13px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size:8px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF9900; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF6C00; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 30px 0;}
@@ -155,8 +155,8 @@ px      68    160    252    344    436    */
 .bs-wizard {}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
-.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff;; font-size: 13px; margin-bottom: 5px;}
-.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff;; font-size: 13px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 13px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF9900; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF6C00; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
