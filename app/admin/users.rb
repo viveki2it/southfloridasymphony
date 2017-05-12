@@ -10,5 +10,18 @@ ActiveAdmin.register User do
   end
 
   actions :index, :show
+  
+  index do
+    column :id
+    column :email
+    column :referral_code
+    column :referrer_id
+    column "referrals code" do |user|
+      user.referrals.count  
+    end
+    column :created_at
+    column :updated_at
+    actions
+  end
 
 end
