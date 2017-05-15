@@ -27,9 +27,9 @@
           <input class="input" type="text" value="<%= root_url %>?ref=<%= @user.referral_code %>">
         </p>
         <p style="text-align:center; padding-bottom:10px;">
-          <% twitter_message = "The most magical weekend of the year" %>  
-          <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=OMW"><img src="<%= asset_path('new_ui/fb.png') %>" width="50" alt="Facebook" /></a> 
-          <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>"><img src="<%= asset_path('new_ui/twitter.png') %>" width="51" alt="Instagram" /></a>
+          <% twitter_message = "win #onemagicalweekend tickets for each friend who signs up!" %>  
+          <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=One Magical Weekend" target="_blank"><img src="<%= asset_path('new_ui/fb.png') %>" width="50" alt="Facebook" /></a> 
+          <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" target="_blank"><img src="<%= asset_path('new_ui/twitter.png') %>" width="51" alt="Instagram" /></a>
         </p>                                                                           
       </div>                       
     </div>		
