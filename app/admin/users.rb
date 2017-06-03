@@ -5,18 +5,21 @@ ActiveAdmin.register User do
     column :email
     column :referral_code
     column :referrer_id
+    column "referrals count" do |user|
+      user.referrals.count  
+    end
     column :created_at
     column :updated_at
   end
 
   actions :index, :show
   
-  index do
+  index download_links: [:csv] do
     column :id
     column :email
     column :referral_code
     column :referrer_id
-    column "referrals code" do |user|
+    column "referrals count" do |user|
       user.referrals.count  
     end
     column :created_at
