@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   belongs_to :referrer, class_name: 'User', foreign_key: 'referrer_id'
   has_many :referrals, class_name: 'User', foreign_key: 'referrer_id'
 
-  validates :email, presence: true, :uniqueness => {:message => "Eamil is already taken"}, format: {
+  validates :email, presence: true, :uniqueness => {:message => "Email is already taken"}, format: {
     with: /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/i,
     message: 'Invalid email format.'
   }

@@ -22,7 +22,7 @@ class UsersController < ApplicationController
     if @user.save
       @user.update_attributes(:referrer_id => @user.id) if ref_code.blank?
       cookies[:h_email] = { value: @user.email }
-      redirect_to '/refer-a-friend', notice: "Please check the your email for the refferal unique link"
+      redirect_to '/refer-a-friend', notice: "Please check your email for the referral unique link"
     else
       if email.blank?
         logger.info("Error saving user with email, email is empty")
