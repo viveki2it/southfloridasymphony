@@ -15,32 +15,32 @@ class User < ActiveRecord::Base
 
   REFERRAL_STEPS = [
     {
-      'count' => 10,
-      'html1' => 'Omw Tank top',
+      'count' => 5,
+      'html1' => '2 Chamber Series Tickets<br/><i>-Summer </i>',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/omw10.jpg')
+        'assets/refer/tier1.jpg')
     },
     {
-      'count' => 25,
-      'html1' => 'Friday Therapy <br> Pool Party Ticket',
+      'count' => 20,
+      'html1' => '2 POPS SERIES Debut Tickets<br/><i>The Great American Songbook</i><br/><i>-November</i>',
       'class' => 'three',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/omw25.jpg')
+        'assets/refer/tier2.jpg')
     },
     {
-      'count' => 50,
-      'html1' => 'Friday Cadabra <br> After Hours Ticket',
+      'count' => 40,
+      'html1' => '4 MASTERWORKS II Tickets<br/><i>The Dance of Life</i><br/><i>-January</i>',
       'class' => 'four',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/omw50.jpg')
+        'assets/refer/tier3.jpg')
     },
     {
       'count' => 75,
-      'html1' => "Riptide at <i>Disney's Typhoon Lagoon</i> Waterpark",
+      'html1' => "MASTERWORKS<br/>SERIES<br/>SUBSCRIPTION",
       'class' => 'five',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/omw75.jpg')
+        'assets/refer/tier4.jpg')
     }
   ]
 

@@ -1,34 +1,24 @@
-<!-- Top Bar Start -->  
-<div class="container-fluid">
-  <div class="row topbg">
-    <div class="container">
-      <p>
-        <span style="font-size:18px;">OMW</span> <span style="font-size:14px;">&nbsp; &nbsp; Thank You for Signing Up</span>
-      </p>
-    </div>
-  </div>
-</div>                                                                                   
-<!-- Top Bar End -->  
-
 <!-- Header -->
 
 <div class="container-fluid thankyouheaderbg">
   <div class="row">
     <div class="container">
-      <div class="col-md-6 col-xs-12 leftbox">  
-        <p class="title">One Magical Weekend</p>
+      <div class="col-md-6 col-xs-12 leftbox" style="padding-top:75px;">  
+        <img src="<%= asset_path('new_ui/SFSO-20-logo-color-1.png') %>" alt="Logo" />
       </div>			
       <div class="col-md-4 col-xs-12 rightbox">  
-        <p style="text-align:center; font-size:16px;font-weight:bold;">DON'T LEAVE YOUR FRIENDS BEHIND</p>
-        <p style="text-align:center; font-size:28px; font-weight:bold;color:#FF0070;">INVITE FRIENDS & <br>
-                WIN PRIZES & TICKETS</p>                                              
-        <p style="text-align:center; font-size:16px;">Share your unique link via email, Facebook or Twitter and earn free pool party tickets or event tickets for each friend who signs up!</p>
+        <p style="text-align:center; font-size:16px;font-weight:bold;">THANK YOU FOR SIGNING UP</p>
+        <p style="text-align:center; font-size:25px; font-weight:bold;color:#B28A35;">Share with Friends & Win
+a  <br>Free Season Subscription!</p>                                                   
+        <p style="text-align:center; font-size:16px;">Share your unique link below via email or social 
+media to earn free tickets or even a season subscription 
+depending on how many friends enter their email address!</p>
         <p style="text-align:center;">
           <input class="input" type="text" value="<%= root_url %>?ref=<%= @user.referral_code %>">
         </p>
         <p style="text-align:center; padding-bottom:10px;">
           <% twitter_message = "win #onemagicalweekend tickets for each friend who signs up!" %>  
-          <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=One Magical Weekend" target="_blank"><img src="<%= asset_path('new_ui/fb.png') %>" width="50" alt="Facebook" /></a> 
+          <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=South Florida" target="_blank"><img src="<%= asset_path('new_ui/fb.png') %>" width="50" alt="Facebook" /></a> 
           <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" target="_blank"><img src="<%= asset_path('new_ui/twitter.png') %>" width="51" alt="Instagram" /></a>
         </p>                                                                           
       </div>                       
@@ -59,18 +49,18 @@
   <div class="row">       
     <div class="container" style="text-align:center;">
       <p>&nbsp;</p>
-      <p style="font-size:20px; color:#FF0070;">HERE'S HOW IT WORKS:</p>
+      <p style="font-size:20px; color:#B28A35;">HERE'S HOW IT WORKS:</p>
       <div class="col-sm-12 col-sm-offset-1 ">                                                       
         <div class="row bs-wizard">                                                                                                                     
           <div class="col-xs-2 bs-wizard-step complete">
             <div class="text-center bs-wizard-stepnum">Friends Joined</div>
             <div class="progress"><div class="progress-bar"></div></div>
             <a href="#" class="bs-wizard-dot"></a>                                                         
-            <div class="bs-wizard-info text-center">OMW product</div>
+            <div class="bs-wizard-info text-center">SFSO Prizes & Rewards:</div>
           </div>
           <% stops.each do |stop| %>
             <div class="col-xs-2 bs-wizard-step <% if stop["selected"] %>completed<% end %>">
-              <div class="text-center bs-wizard-stepnum"><%=  stop["count"] %></div>
+              <div class="text-center bs-wizard-stepnum"><%=  stop["count"].to_s + " emails" %></div>
               <div class="progress"><div class="progress-bar"></div></div>
               <a href="javascript:void(0);" class="bs-wizard-dot" data-container="body" data-toggle="popover" data-placement="top" data-content='<img src="<%= stop["image"] %>" height="290" width="254">' data-trigger="hover click"></a>                                                         
               <div class="bs-wizard-info text-center"><%= stop["html1"].html_safe %></div>
@@ -93,9 +83,9 @@
         %>
         <p>&nbsp;</p>
         <% if referrals_count == 0 %>
-          <p>No <span  style="font-size:16px; color:#FF0070;">friends have joined...Yet!</span></p>
+          <p>No <span  style="font-size:16px; color:#B28A35;">friends have joined...Yet!</span></p>
         <% else %>
-          <p><%= referrals_count %> <span style="font-size:16px; color:#FF0070;"> <%= words %> joined</span></p>
+          <p><%= referrals_count %> <span style="font-size:16px; color:#B28A35;"> <%= words %> joined</span></p>
         <% end %>        
         <p>Keep Checking</p>
         <p>&nbsp;</p>

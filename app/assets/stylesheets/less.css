@@ -8,10 +8,10 @@
 cols    1     2      3      4      5      6      7      8      9      10
 px      68    160    252    344    436    528    620    712    804    896    */
 
-.thankyouheaderbg{ height:430px;}
-.rightbox{float:right; padding-top:20px;margin-top:30px; }
+.thankyouheaderbg{ height:500px;}
+.rightbox{float:right; padding-top:20px;margin-top:80px; }
  .title{ margin-top:140px;}
-
+.homelogo{ text-align:right; margin-top:20px;}
  
  
  /*Form Wizard*/
@@ -20,10 +20,10 @@ px      68    160    252    344    436    528    620    712    804    896    */
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 15px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF66CC; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF0070; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B28A35; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
-.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#FF0070;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B28A35;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
 .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}               
 .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
@@ -54,6 +54,16 @@ px      68    160    252    344    436    528    620    712    */
 .title{font-size:30px;  margin-top:20px;}
 
 
+.homeheaderbg2{background:#060506;height:100%;}   
+.form2{ margin: 0 auto; text-align:center; margin-bottom:20px; width:700px; padding:15px; border:1px solid #fff; background:#2B2E34; margin-top:80px;}  
+.purple2{ border:1px solid #B28A35; background:#B28A35; color:#fff;width:300px; padding:7px; margin-top:20px; }
+.emailbox2{ border:1px solid #B28A35; width:300px; padding:7px;color:#333333; margin-top:20px; }
+.photo{ width:300px; float:left;}
+.formbox{ width:350px; float:left; margin-top:40px;}
+
+
+
+
  
  
  /*Form Wizard*/
@@ -62,10 +72,10 @@ px      68    160    252    344    436    528    620    712    */
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 13px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF66CC; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF0070; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B93A0D; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
-.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #FF0070;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B93A0D;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
 .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}               
 .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
@@ -98,18 +108,35 @@ px      68    160    252    */
   .title{font-size:22px;  margin-top:20px;}
   .bs-wizard{ width:350px;}
   .bs-wizard-stepnum { font-size:5px;}
+.homelogo{ text-align:center; margin-top:20px;}  
+.leftbox{ text-align: center;}  
+  
+  
+  
+ .homeheaderbg2{background:#060506;height:100%;}   
+.form2{ margin: 0 auto; text-align:center; margin-bottom:20px; width:280px; padding:15px; border:1px solid #fff; background:#2B2E34; margin-top:20px;}  
+.purple2{ border:1px solid #B28A35; background:#B28A35; color:#fff;width:240px; padding:7px; margin-top:20px; }
+.emailbox2{ border:1px solid #B28A35; width:240px; padding:7px;color:#333333; margin-top:20px; }
+.photo{ width:260px; float:left;}
+.photo img{ width:240px; }
+.formbox{ width:260px; float:left; margin-top:40px;} 
+  
+  
+  
+  
+  
   
   
  /*Form Wizard*/
 .bs-wizard {}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
-.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size:8px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 8px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF66CC; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF0070; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B28A35; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 30px 0;}
-.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #FF0070;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B28A35;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
 .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}               
 .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
@@ -140,8 +167,8 @@ px      68    160    252    344    436    */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
  
 .thankyouheaderbg{ height:500px;}
-.rightbox{float:right; padding-top:20px;margin-top:10px; }
-.title{font-size:30px;  margin-top:10px;}
+.rightbox{float:right; padding-top:20px;margin-top:30px; }
+.title{font-size:30px;  margin-top:20px;}
 
   .bs-wizard{ width:530px;}
   .bs-wizard .font{ font-size:8px;}  
@@ -157,10 +184,10 @@ px      68    160    252    344    436    */
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}                                                         
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #fff; font-size: 13px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #fff; font-size: 13px;}
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #FF66CC; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FF0070; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B28A35; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
-.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #FF0070;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B28A35;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
 .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}               
 .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
