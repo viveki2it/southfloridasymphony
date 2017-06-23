@@ -60,7 +60,7 @@
             <td style="padding:2px 40px 0px 40px;">
               <center>
                   <h1 style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; color: #333333; text-align: justify;">
-                    Simply click the Facebook or Twitter buttons below, and anyone who clicks on your link will earn free tickets or even a season subscription! For Facebook and Email, be sure to copy/paste the text box below, or customize your own message!  
+                    Simply click the social media buttons below, and anyone who clicks on your link will earn free tickets or even a season subscription! For Facebook and Email, be sure to copy/paste the text box below, or customize your own message!  
                   </h1>  
               </center>
             </td>
@@ -114,6 +114,11 @@
                             <td width="80">
                                 <a href="http://twitter.com/share?url=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options[:host] || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(@twitter_message) %>" style="outline: 0; border: 0;" target="_blank">
                                     <img src="<%= Rails.application.config.action_mailer.default_url_options[:host] %>/assets/email/twitter.png" alt="Share on Twitter" style="display: block; margin: 0; padding: 0; border: 0;">
+                                </a>
+                            </td>
+                            <td width="80">
+                                <a href="http://pinterest.com/pin/create/button/?url=<%= CGI::escape(Rails.application.config.action_mailer.default_url_options[:host] || "") %>?ref=<%= CGI::escape(@user.referral_code) %>&description=<%= CGI::escape(@twitter_message) %>" style="outline: 0; border: 0;" target="_blank">
+                                    <img src="<%= Rails.application.config.action_mailer.default_url_options[:host] %>/assets/email/pinterest.png" alt="Share on Pinterest" style="display: block; margin: 0; padding: 0; border: 0;">
                                 </a>
                             </td>
                         </tr>
