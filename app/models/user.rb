@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
       'html1' => '2 Chamber Series Tickets<br/><i>-Summer </i>',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/tier1.jpg')
+        'assets/refer/tier4.jpg')
     },
     {
       'count' => 20,
@@ -40,7 +40,7 @@ class User < ActiveRecord::Base
       'html1' => "MASTERWORKS<br/>SERIES<br/>SUBSCRIPTION",
       'class' => 'five',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/tier4.jpg')
+        'assets/refer/tier1.jpg')
     }
   ]
 

@@ -1,10 +1,14 @@
 <!-- Header -->
-
+<style>
+    body{
+      background:#fff; color:#000;
+    }
+</style>
 <div class="container-fluid thankyouheaderbg">
   <div class="row">
     <div class="container">
       <div class="col-md-6 col-xs-12 leftbox" style="padding-top:75px;">  
-        <img src="<%= asset_path('new_ui/SFSO-20-logo-color-1.png') %>" alt="Logo" />
+        <img src="<%= asset_path('new_ui/SFSO-20-logo-color-01.png') %>" alt="Logo" />
       </div>			
       <div class="col-md-4 col-xs-12 rightbox">  
         <p style="text-align:center; font-size:16px;font-weight:bold;">THANK YOU FOR SIGNING UP</p>
@@ -63,7 +67,7 @@ depending on how many friends enter their email address!</p>
             <div class="col-xs-2 bs-wizard-step <% if stop["selected"] %>completed<% end %>">
               <div class="text-center bs-wizard-stepnum"><%=  stop["count"].to_s + " emails" %></div>
               <div class="progress"><div class="progress-bar"></div></div>
-              <a href="javascript:void(0);" class="bs-wizard-dot" data-container="body" data-toggle="popover" data-placement="top" data-content='<img src="<%= stop["image"] %>" height="290" width="254">' data-trigger="hover click"></a>                                                         
+              <a href="javascript:void(0);" class="bs-wizard-dot" data-container="body" data-toggle="popover" data-placement="top" data-content='<img src="<%= stop["image"] %>" height="254" width="254">' data-trigger="hover click"></a>                                                         
               <div class="bs-wizard-info text-center"><%= stop["html1"].html_safe %></div>
             </div>
           <% end %>

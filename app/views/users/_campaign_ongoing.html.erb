@@ -7,7 +7,7 @@
           <img src="<%= asset_path('new_ui/Sebrinafingerup.jpg') %>" width="265" alt="Subrina" />
         </div>
         <div class="formbox">
-          <p><img src="<%= asset_path('new_ui/SFSO-season-20-color.png') %>" alt="SFSO" width="350" /></p>
+          <p><img src="<%= asset_path('new_ui/SFSO-20-logo-color-1.png') %>" alt="SFSO" width="350" /></p>
           <p>&nbsp;</p>
           <p style="font-size:18px; color:#B28A35;">BE THE FIRST TO KNOW</p>
           <%= form_for @user, :url => { :action => "create" }, :html => {:class => "form-inline"} do |f| %>
@@ -15,6 +15,7 @@
             <%= f.text_field :email, :placeholder => "Enter Email", :class => "emailbox2" %> <br> 
             <input class="btn purple2" type="submit" value="STEP INSIDE" />
           <% end %>
+          <p>&nbsp;</p>
         </div>  
         <div class="clearfix"></div>  
       </div>

@@ -6,7 +6,7 @@ body{margin:0px; padding:0px; background:#060506; color:#fff;}
 
 
 .homeheaderbg2{background:#060506;height:100%;}   
-.form2{ margin: 0 auto; text-align:center; margin-bottom:20px; width:800px; padding:15px; border:1px solid #fff; background:#2B2E34; margin-top:60px;}  
+.form2{ margin: 0 auto; text-align:center; margin-bottom:20px; width:800px; padding:15px; border:3px solid #B28A35; background:#fff; margin-top:60px;}  
 .purple2{ border:1px solid #B28A35; background:#B28A35; color:#fff;width:350px; padding:7px; margin-top:20px; }
 .emailbox2{ border:1px solid #B28A35; width:350px; padding:7px;color:#333333; margin-top:10px; }
 .photo{ width:300px; float:left;}
