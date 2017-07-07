@@ -21,7 +21,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #000; font-size: 15px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #000; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B28A35; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #000; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
 .bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B28A35;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
@@ -73,7 +73,7 @@ px      68    160    252    344    436    528    620    712    */
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #000; font-size: 13px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #000; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B93A0D; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #000; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
 .bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B93A0D;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
@@ -134,7 +134,7 @@ px      68    160    252    */
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #000; font-size: 8px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #000; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B28A35; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #000; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 30px 0;}
 .bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B28A35;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
@@ -185,7 +185,7 @@ px      68    160    252    344    436    */
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #000; font-size: 13px; margin-bottom: 5px;}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #000; font-size: 13px;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #B28A35; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;}        
-.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #FFB794; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #000; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
 .bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
 .bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background:#B28A35;}
 .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}             
