@@ -44,7 +44,7 @@
                 <img align="bottom" alt="Interesting Image" border="0" height="296" src="<%= Rails.application.config.action_mailer.default_url_options[:host] %>/assets/email/headerbgthankyou.jpg" style="margin: 0; margin-right: 0px; margin-left: 0px; padding: 0; background: none; border: none; white-space: normal; line-height: normal;" title="Interesting Image" width="560" />
               </center>
             </td>
-          </tr>
+          </tr >
         </table>
         <table style="margin: 0 auto; padding: 0; width: 651px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif; font-size: 0; color: #CCC; font-weight: normal; border: 4px solid #995e5d; border-top: none; border-bottom: none; background: white; text-align: center;" width='651' cellspacing='0' cellpadding='0' align="center" bgcolor="#FFFFFF">
           <tr>
@@ -60,17 +60,7 @@
             <td style="padding:2px 40px 0px 40px;">
               <center>
                   <p style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; color: #333333; text-align: justify;">
-                    Welcome to the South Florida Symphony Orchestra’s 20th Season!
-                  </p>  
-              </center>
-            </td>
-          </tr>
-        </table>
-        <table style="margin: 0 auto; padding: 0; width: 651px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif; font-size: 0; color: #CCC; font-weight: normal; border: 4px solid #995e5d; border-top: none; border-bottom: none; background: white; text-align: center;" width='651' cellspacing='0' cellpadding='0' align="center" bgcolor="#FFFFFF">
-          <tr>
-            <td style="padding:2px 40px 0px 40px;">
-              <center>
-                  <p style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; color: #333333; text-align: justify;">
+                    Welcome to the South Florida Symphony Orchestra’s 20th Season! <br /> <br />
                     You’re just a few referrals away from earning free tickets or even a season subscription.
                   </p>  
               </center>
@@ -88,14 +78,13 @@
             </td>
           </tr>
         </table>
-          
         <table style="margin: 0 auto; padding: 0; width: 651px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif; font-size: 0; color: #CCC; font-weight: normal; border: 4px solid #995e5d; border-top: none; border-bottom: none; background: white; text-align: center;" width='651' cellspacing='0' cellpadding='0' align="center" bgcolor="#FFFFFF">
           <tr>
             <td style="padding:2px 40px 0px 40px;">
               <center>
                   <p style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; color: #333333; text-align: justify;">
-                    - The more friends you can refer the symphony to, the more free tickets (or a subscription) you can earn <br>
-                    - Simply share the link below on Twitter, Facebook, Pinterest, email or text-message, and when your friends sign up, you’ll be one step closer to earning free tickets!
+                    - The more friends you can refer the symphony to, the more <b>free tickets (or a subscription) you can earn</b><br />
+                    - Simply <b>share the link below</b> on Twitter, Facebook, Pinterest, email or text-message, and when your friends sign up, you’ll be one step closer to earning free tickets!
                   </p>  
               </center>
             </td>
@@ -106,20 +95,8 @@
             <td style="padding:2px 40px 0px 40px;">
               <center>
                   <p style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; color: #333333; text-align: justify;">
-                    When you click on either of the below Facebook or Twitter links, a pre-generated SFSO post will appear allowing you - in one click- to start earning free tickets!
+                    P.S. Clicking the "twitter" or "pinterest" links below will provide you with a pre-generated tweet or pin, with your unique referral link. For Facebook, email, or text message, simply copy/paste your unique link below, and let your friends know!
                   </p>  
-              </center>
-            </td>
-          </tr>
-        </table>
-        <table style="margin: 0 auto; padding: 0; width: 651px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif; font-size: 0; color: #CCC; font-weight: normal; border: 4px solid #995e5d; border-top: none; border-bottom: none; background: white; text-align: center;" width='651' cellspacing='0' cellpadding='0' align="center" bgcolor="#FFFFFF">
-          <tr>
-            <td style="padding:2px 40px 0px 40px;">
-              <center>
-                <h1 style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; color: #333333; letter-spacing: 2px; text-align: justify;">
-                  P.S. Clicking the "twitter" or "pinterest" links below will provide you with a pre-generated tweet or pin, with your unique referral link. For Facebook, email, or text message, simply copy/paste your unique link below, and let your friends know!
-                  <a href="<%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %>" style="font-family: 'Times', serif; font-size: 14px; letter-spacing: 0.05em; color: #6c6c6c; text-decoration: none" target="_blank"><%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %></a>
-                </h1>  
               </center>
             </td>
           </tr>
@@ -149,6 +126,17 @@
                     </table>
                 </td>
             </tr>
+        </table>
+        <table style="margin: 0 auto; padding: 0; width: 651px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif; font-size: 0; color: #CCC; font-weight: normal; border: 4px solid #995e5d; border-top: none; border-bottom: none; background: white; text-align: center;" width='651' cellspacing='0' cellpadding='0' align="center" bgcolor="#FFFFFF">
+          <tr>
+            <td style="padding:2px 40px 0px 40px;">
+              <center>
+                <p style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; color: #333333; letter-spacing: 2px; text-align: justify;">
+                  <a href="<%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %>" style="font-family: 'Times', serif; font-size: 14px; letter-spacing: 0.05em; color: #6c6c6c; text-decoration: none" target="_blank">(<%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %>)</a>
+                </p>  
+              </center>
+            </td>
+          </tr>
         </table>
         <table style="margin: 0 auto; padding: 0; width: 651px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif; font-size: 0; color: #CCC; font-weight: normal; border: 4px solid #995e5d; border-top: none; border-bottom: none; background: white; text-align: center;" width='651' cellspacing='0' cellpadding='0' align="center" bgcolor="#FFFFFF">
             <tr>
