@@ -31,7 +31,7 @@ body{margin:0px; padding:0px; background:#060506; color:#fff;}
            
 .input{padding:10px; width:260px; border:1px solid #B28A35; margin:2px 0px;}                          
                                 									 
-.topbg{ background:#B28A35; height:40px;color:#fff; text-align:center; padding-top:8px;}                          
+.topbg{ background:#B28A35; height:100%;color:#fff; text-align:center; padding-top:8px;}                          
                
 .bs-wizard {margin-top: 0px; margin-bottom:20px;border-bottom:0px;}
 .title{ font-size:40px;color:#B28A35; font-weight:bold;  text-shadow: 2px 2px 2px #fff;}
