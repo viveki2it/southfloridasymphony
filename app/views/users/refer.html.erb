@@ -7,7 +7,7 @@
 <div class="container-fluid thankyouheaderbg">
   <div class="row">
     <div class="container">
-      <div class="col-md-6 col-xs-12 leftbox" style="padding-top:75px;">  
+      <div class="col-md-6 col-xs-12 leftbox" style="padding-top:45px;">  
         <img src="<%= asset_path('new_ui/SFSO-20-logo-color-01.png') %>" alt="Logo" />
       </div>			
       <div class="col-md-4 col-xs-12 rightbox">  
@@ -21,7 +21,7 @@ depending on how many friends enter their email address!</p>
           <input class="input" type="text" value="<%= root_url %>?ref=<%= @user.referral_code %>">
         </p>
         <p style="text-align:center; padding-bottom:10px;">
-          <% twitter_message = "Win free tickets or even a season subscription to the South Florida Symphony Orchestra’s terrific 20th Season." %>  
+          <% twitter_message = "Click here to win free tickets or a season subscription to South Florida Symphony Orchestra’s 20th Season!" %>  
           <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=South Florida" target="_blank"><img src="<%= asset_path('new_ui/fb.png') %>" width="50" alt="Facebook" /></a> 
           <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" target="_blank"><img src="<%= asset_path('new_ui/twitter.png') %>" width="51" alt="twitter" /></a>
           <a href="http://pinterest.com/pin/create/button/?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&description=<%= CGI::escape(twitter_message) %>&media=<%= Rails.application.config.action_mailer.default_url_options[:host] %>/assets/new_ui/sfso-banner-02.png" target="_blank"><img src="<%= asset_path('new_ui/pinterest.png') %>" width="51" alt="pinterest" /></a>
