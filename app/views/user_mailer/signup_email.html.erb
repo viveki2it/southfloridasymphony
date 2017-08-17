@@ -141,6 +141,7 @@
                     <center>
                       <h1 style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 16px; color:#000000;">
                           Your Link: <br/>
+                          <span style="font-size: 14px;">SHARE BELOW LINK WITH FRIENDS; AND CLICK ON THE SAME LINK FROM YOUR COMPUTER TO SEE HOW MANY REFERRALS YOU HAVE AT ANY TIME:</span> <br/>
                           <a href="<%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %>" style="font-family: 'Times', serif; font-size: 14px; letter-spacing: 0.05em; color: #6c6c6c; text-decoration: none" target="_blank"><%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %></a>
                       </h1>  
                     </center>
