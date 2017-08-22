@@ -53,4 +53,8 @@ class User < ActiveRecord::Base
   def send_welcome_email
     UserMailer.signup_email(self).deliver_now
   end
+  
+  def user_url(root_url)
+    root_url + "users/" + referral_code
+  end  
 end

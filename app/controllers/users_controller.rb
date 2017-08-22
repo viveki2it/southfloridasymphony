@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_filter :skip_first_page, only: :new
   before_filter :handle_ip, only: :create
+  before_filter :fetch_user, only: :show
 
   def new
     @bodyId = 'home'
@@ -23,7 +24,7 @@ class UsersController < ApplicationController
     if @user.save
       @user.update_attributes(:referrer_id => @user.id) if ref_code.blank?
       cookies[:h_email] = { value: @user.email }
-      redirect_to '/refer-a-friend', notice: "Please check your email for the referral unique link"
+      redirect_to user_path(@user.referral_code), notice: "Please check your email for the referral unique link"
     else
       if email.blank?
         logger.info("Error saving user with email, email is empty")
@@ -59,6 +60,14 @@ class UsersController < ApplicationController
   def redirect
     redirect_to root_path, status: 404
   end
+  
+  def show
+    if @user.blank?
+      redirect_to root_path, alert: 'Your referral code is does not match!'
+    else
+      render "refer"
+    end
+  end
 
   private
 
@@ -72,6 +81,11 @@ class UsersController < ApplicationController
       cookies.delete :h_email
     end
   end
+  
+  def fetch_user
+		@user = User.find_by(referral_code: params[:id])
+	end
+
 
   def handle_ip
     # Prevent someone from gaming the site by referring themselves.

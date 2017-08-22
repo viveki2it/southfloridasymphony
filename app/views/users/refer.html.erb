@@ -21,7 +21,7 @@ depending on how many friends enter their email address!</p>
           <input class="input" type="text" value="<%= root_url %>?ref=<%= @user.referral_code %>">
         </p>
         <p style="text-align:center; padding-bottom:10px;">
-          <% twitter_message = "CLICK 2 WIN free tickets or season subscription to South Florida Symphony Orchestra’s 20thSeason!" %>  
+          <% twitter_message = "CLICK 2 WIN free tickets or season subscription to South Florida Symphony Orchestra’s 20thSeason! #love#live#music" %>  
           <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=South Florida" target="_blank"><img src="<%= asset_path('new_ui/fb.png') %>" width="50" alt="Facebook" /></a> 
           <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" target="_blank"><img src="<%= asset_path('new_ui/twitter.png') %>" width="51" alt="twitter" /></a>
           <a href="http://pinterest.com/pin/create/button/?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&description=<%= CGI::escape(twitter_message) %>&media=<%= Rails.application.config.action_mailer.default_url_options[:host] %>/assets/new_ui/symphony_1200.png" target="_blank"><img src="<%= asset_path('new_ui/pinterest.png') %>" width="51" alt="pinterest" /></a>
