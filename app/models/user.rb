@@ -43,6 +43,10 @@ class User < ActiveRecord::Base
         'assets/refer/tier1.jpg')
     }
   ]
+  
+  def user_url(root_url)
+    root_url + "users/" + referral_code
+  end  
 
   private
 
@@ -54,7 +58,4 @@ class User < ActiveRecord::Base
     UserMailer.signup_email(self).deliver_now
   end
   
-  def user_url(root_url)
-    root_url + "users/" + referral_code
-  end  
 end
