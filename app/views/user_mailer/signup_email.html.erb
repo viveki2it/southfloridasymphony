@@ -140,10 +140,10 @@
                 <td style="padding: 18px 0 100px; font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 14px; letter-spacing: 0.05em; color: #6c6c6c; text-decoration: none">
                     <center>
                       <h1 style="font-family: 'Brandon Grotesque', 'Helvetica Neue', 'Helvetica', 'Arial', serif; font-size: 16px; color:#000000;">
-                          <span style="font-size: 14px;">Share the link below with friends to earn rewards</span> <br/><br/>
+                          <span style="font-size: 14px;">Share the link below with friends to earn rewards</span> <br/>
                           Share Link: <br/><br/>
                           <a href="<%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %>" style="font-family: 'Times', serif; font-size: 14px; letter-spacing: 0.05em; color: #6c6c6c; text-decoration: none" target="_blank"><%= Rails.application.config.action_mailer.default_url_options[:host] || "" %>?ref=<%= @user.referral_code %></a><br/><br/>
-                          <span style="font-size: 14px;">To view how many referrals you have at any time, click the below link to access your referral page</span> <br/><br/>
+                          <span style="font-size: 14px;">To view how many referrals you have at any time, click the link below</span> <br/>
                           View Link: <br/><br/>
                           <%= link_to @user.user_url(root_url), @user.user_url(root_url), :style => "font-family: 'Times', serif; font-size: 14px; letter-spacing: 0.05em; color: #6c6c6c; text-decoration: none", 'target' => "_blank" %>
                       </h1>  
